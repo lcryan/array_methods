@@ -83,8 +83,11 @@ console.log(sortedByYearOfBirth);
 // { first: 'Ada', last: 'Lovelace', year: 1815, passed: 1852 }
 // ]
 
+const oldestInventor = inventors.sort((a,b) =>{
+  return
+})
 
-
+console.log(oldestInventor)
 
 // 6. Vind de gegevens over de uitvinder wiens achternaam 'Edison' is.
 // Verwachte uitkomst: { first: 'Thomas', last: 'Edison', year: 1847, passed: 1931 }
