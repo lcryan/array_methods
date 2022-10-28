@@ -88,3 +88,8 @@ console.log(sortedByYearOfBirth);
 
 // 6. Vind de gegevens over de uitvinder wiens achternaam 'Edison' is.
 // Verwachte uitkomst: { first: 'Thomas', last: 'Edison', year: 1847, passed: 1931 }
+
+const detailsEdison = inventors.find((inventor)=>{
+  return inventor.last === "Edison";
+});
+console.log(detailsEdison);
