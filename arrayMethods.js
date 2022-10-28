@@ -19,7 +19,10 @@ const inventors = [
 // Verwachte uitkomst:
 // [{ first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 }, { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 }]
 
-
+const yearOfBirth = inventors.filter((inventor) => {
+  return inventor.year <= 1600 && inventor.year >= 1501;
+});
+console.log(yearOfBirth)
 
 // 2. Maak een array met daarin alle geboortejaren van de uitvinders
 // Verwachte uitkomst: [1879, 1643, 1564, 1867, 1571, 1473, 1858, 1898, 1815, 1855, 1878, 1847];
