@@ -59,6 +59,11 @@ console.log(firstAndLastName);
 //   { first: 'Katherine', last: 'Blodgett', year: 1898, passed: 1979 }
 // ]
 
+let sortedByYearOfBirth = inventors.sort((a,b)=> {
+  return a.year - b.year;
+})
+
+console.log(sortedByYearOfBirth);
 
 
 // 5. Sorteer de uitvinders op hoeveel jaren ze geleefd hebben, van langste leven naar kortste leven
