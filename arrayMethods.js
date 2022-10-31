@@ -84,7 +84,9 @@ console.log(sortedByYearOfBirth);
 // ]
 
 const oldestInventor = inventors.sort((a,b) =>{
-  return
+  const totalYearsA = a.passed - a.year;
+  const totalYearsB = b.passed - b.year;
+  return totalYearsB - totalYearsA;
 })
 
 console.log(oldestInventor)
